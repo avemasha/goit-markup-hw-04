@@ -95,6 +95,10 @@ img {
 .contacts li + li {
   margin-left: 50px;
 }
+.icon-contact {
+  fill: var(--icon-color);
+}
+
 .logo {
   color: var(--logo-web-color);
   font-family: "Raleway";
@@ -145,6 +149,13 @@ img {
 }
 .icon-contact {
   fill: var(--primary-text-color);
+}
+
+.phone:hover .icon-contact {
+  fill: var(--accent-color);
+}
+.mail:hover .icon-contact {
+  fill: var(--accent-color);
 }
 /* hero */
 
