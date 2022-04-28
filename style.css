@@ -407,8 +407,7 @@ img {
 
 .container .button-list {
   display: flex;
-  padding-left: 295px;
-  padding-right: 294px;
+  justify-content: center;
 
   margin-bottom: 50px;
 }
@@ -445,29 +444,22 @@ img {
 .projects {
   display: flex;
   flex-wrap: wrap;
-
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 .projects-item {
   width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 262px;
+  margin-left: 30px;
+  margin-top: 30px;
   border: 1px solid #eeeeee;
-  box-sizing: border-box;
 }
 
-.projects li + li {
-  margin-left: 30px;
-}
 .projects-item:nth-child(3n + 1) {
   margin-left: 0;
 }
-.projects-item:nth-child(-n + 6) {
+/* .projects-item:nth-child(-n + 6) {
   margin-bottom: 30px;
-}
+} */
 
 .projects-item .image {
   width: 370px;
@@ -481,13 +473,14 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
+
   margin-bottom: 4px;
 }
 .portfolio-info {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 .link .image-paragraph {
   color: var(--primary-text-color);
